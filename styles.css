@@ -1,0 +1,117 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+  }  */
+  
+.navbar{
+    background-color: red;
+    display: flex; /*pakkana vacheki login button */
+    justify-content: space-between; /*space vacheki */
+    align-items: center; /*middle loki vacheki*/
+    padding: 20px; /*pyna kindha gap vacheki*/
+  }
+  .navbar ul{
+    display: flex; /*home a s c pakkana vacheki*/
+    /* list-style: none; */ /*dots rakunda undeki*/
+  }
+  .navbar li{
+    margin-right: 40px; /*gap vacheki*/
+    font-size: 20px; /*size increase ayyeki*/
+  }
+  h1{
+    text-align: center;
+  }
+  .s{
+    margin: auto;
+    display: flex;
+    background-color: aqua;
+    height: 60vh;
+    color: chocolate;
+    padding: 50px;
+  }
+  .s p{
+    font-size: 30px;
+    margin-left: 300px;
+    margin-top: 100px;
+    text-align: center;
+  }
+  .t{
+    background-color: palegreen;
+    height: 60vh;
+    color: rgb(58, 15, 185);
+    padding: 50px;
+  }
+  .t p{
+    font-size: 30px;
+    margin-left: 100px;
+    margin-right: 60px;
+  }
+  /* .a{
+    align-items: center;
+  } */
+
+  .b{
+    background-color: blueviolet;
+    height: 75vh;
+    }
+    .b h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px; /*gap vacheki*/
+    }
+    
+   .c{ 
+    background-color: rgba(18, 210, 190, 0.4);
+    width: 40%;  /*background color width*/
+    height: 50vh; /*height entha kaavali ani*/
+    margin: auto; /*left side place vacheki*/
+    border-radius: 20px; /*corner curve vacheki*/
+    padding: 10px; /*top&bottom gap vacheki*/
+    margin-top: 30px; /*top lo gap vaheki*/
+    }
+    
+   .c label{
+    font-weight: bold; /*thick and big letters */
+    color: white; /*text color*/
+    font-family: sans-serif; /*same ga arrange ayyeki*/
+    display: block;  /*enter chesevi kindha vacheki*/
+    }
+    
+   .c input{
+    padding: 10px 30px; /*10-top&bottom 30-right&left*/
+    width: 100%;
+    border: none;
+    border-radius: 5px; /*corner curve*/
+    }
+    
+    .c div{
+        margin-left: 150px;
+        margin-bottom: 15px; /*gap b/w first&last name*/
+        width: 40%;
+    }
+    
+    .d{
+    display: flex; /*gender buttons pakkana vacheki*/
+    }
+    
+    .submit-btn{
+    padding: 10px 20px; /*10-top&bottom 20-right&left*/
+    border-radius: 50px; /*corner curve vacheki*/
+    }
+
+
+    .google-map h1{
+      text-align: center;
+      color: white;
+      background-color: red;
+      margin: 0px;
+      letter-spacing: 20px;
+      padding: 10px;
+    }
+    .google-map iframe{
+      width: 100%;
+    }
+   .z{
+    margin-left: 800px;
+   } 
